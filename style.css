@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(144, 94, 190);
+}
+input {
+    background-color: rgb(106, 188, 238);
+}
+select{
+    background-color: rgb(236, 94, 94);
+}
+.button_op{
+    background-color: rgb(224, 57, 57);
+}
