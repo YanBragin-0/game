@@ -1,21 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-  <title>Тыквы ванючие</title>
-  <style>
-    canvas {
-      background-color: rgb(0, 0, 0);
-      display: block;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Dog API</title>
 </head>
-<body style="background-color:blueviolet">
-  <div id="score" style="position:fixed;top:10px;left:10px;font-size:28px;font-weight:bold;color:orange;">
-  Словите 15 тыкв | 🎃 Поймано: <span id="scoreCount">0</span>
-</div>
-  <canvas id="gameCanvas"></canvas>
-  <script src="classPumpkin.js"></script>
-  <script src="test.js"></script>
-</body>
+<body>
 
+    <h1>Случайная собака</h1>
+    <button onclick="Dog()">Новая</button>
+    <br><br>
+
+    <img id="dog" width="400">
+
+    <script src="api.js"></script>
+</body>
 </html>
